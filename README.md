@@ -6,15 +6,24 @@ An autonomous AI incident response platform that uses **Hindsight persistent mem
 
 ---
 
-## 📺 Demo Video & Interface Preview
+## 📺 Demo Video & Interface Walkthrough
 
 [![Watch Demo Video](https://img.shields.io/badge/Demo%20Video-Watch%20on%20Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1HxSjzUgjz84n2xTiP3ep_DfL-935Zech/view?usp=sharing)
 
 > **🎥 Watch the Full Demonstration Video on Google Drive:**  
 > **[Incident Memory Agent Walkthrough Video](https://drive.google.com/file/d/1HxSjzUgjz84n2xTiP3ep_DfL-935Zech/view?usp=sharing)**
 
-### SRE Operations Dashboard & Hindsight Persistent Memory Feed
-![Incident Memory Agent Operations Dashboard](docs/images/dashboard_preview.png)
+### 1. Incident Operations Center Dashboard
+*Real-time incident metrics, severity distribution, resolution rate charts, and live Hindsight persistent memory feed.*
+![Incident Operations Center Dashboard](docs/images/01_dashboard.png)
+
+### 2. Incident History & Operational Triage
+*Operational incident records, multi-parameter search, and status tracking.*
+![Incident History & Operational Triage](docs/images/02_incident_history.png)
+
+### 3. Memory Value Demonstration: Before & After Hindsight
+*Controlled side-by-side comparison proving how Hindsight persistent memory eliminates redundant trial-and-error diagnostics.*
+![Memory Value Demonstration: Before & After Hindsight](docs/images/03_memory_comparison.png)
 
 ---
 
@@ -108,11 +117,7 @@ Via `hindsightService.reflectOverMemories()`, engineers can prompt the reflectio
 | **Memory Explorer (`/memory`)** | Live interactive recall query tester, reflection engine console, and memory bank activity audit table. |
 | **Enterprise Guardrails** | Untrusted diagnostic input isolation, strict Zod schema validation, and zero client-side credential exposure. |
 
-### Memory Value Demonstration: Before & After Hindsight
-![Memory Value Demonstration - Before & After Hindsight](docs/images/memory_comparison.png)
-
 ---
-
 
 ## 🛠️ Tech Stack
 
