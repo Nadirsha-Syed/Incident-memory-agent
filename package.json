@@ -1,0 +1,15 @@
+{
+  "name": "incident-memory-agent-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Incident Memory Agent - Every incident teaches the next one. Production-grade hackathon application with Hindsight persistent memory.",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "build": "npm run build:server && npm run build:client",
+    "test:server": "cd server && npm test",
+    "seed": "cd server && npm run seed"
+  }
+}
