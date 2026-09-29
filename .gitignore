@@ -34,3 +34,8 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Local drafting and scratch notes
+SUBMISSION.md
+DEMO_SCRIPT.md
+

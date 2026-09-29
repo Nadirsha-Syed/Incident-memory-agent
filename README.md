@@ -6,11 +6,15 @@ An autonomous AI incident response platform that uses **Hindsight persistent mem
 
 ---
 
-## 📺 Demo Video
+## 📺 Demo Video & Interface Preview
 
-[![Watch Demo Video](https://img.shields.io/badge/Demo%20Video-Watch%20Now-6366F1?style=for-the-badge&logo=youtube&logoColor=white)](https://your-demo-video-link-here)
+[![Watch Demo Video](https://img.shields.io/badge/Demo%20Video-Watch%20on%20Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1HxSjzUgjz84n2xTiP3ep_DfL-935Zech/view?usp=sharing)
 
-> *Replace the link above with your final recorded video URL (e.g. YouTube, Loom, or Google Drive).*
+> **🎥 Watch the Full Demonstration Video on Google Drive:**  
+> **[Incident Memory Agent Walkthrough Video](https://drive.google.com/file/d/1HxSjzUgjz84n2xTiP3ep_DfL-935Zech/view?usp=sharing)**
+
+### SRE Operations Dashboard & Hindsight Persistent Memory Feed
+![Incident Memory Agent Operations Dashboard](docs/images/dashboard_preview.png)
 
 ---
 
@@ -104,7 +108,11 @@ Via `hindsightService.reflectOverMemories()`, engineers can prompt the reflectio
 | **Memory Explorer (`/memory`)** | Live interactive recall query tester, reflection engine console, and memory bank activity audit table. |
 | **Enterprise Guardrails** | Untrusted diagnostic input isolation, strict Zod schema validation, and zero client-side credential exposure. |
 
+### Memory Value Demonstration: Before & After Hindsight
+![Memory Value Demonstration - Before & After Hindsight](docs/images/memory_comparison.png)
+
 ---
+
 
 ## 🛠️ Tech Stack
 
@@ -203,9 +211,9 @@ incident-memory-agent/
 │   ├── tsconfig.json
 │   └── package.json
 │
+├── docs/                       # Project documentation assets
+│   └── images/                 # Dashboard & comparison screenshots
 ├── .env.example                # Documented environment variable templates
-├── DEMO_SCRIPT.md              # 2-3 minute screen recording script & walkthrough
-├── SUBMISSION.md               # Hackathon article, LinkedIn copy & project overview
 └── package.json                # Root scripts for monorepo management
 ```
 
