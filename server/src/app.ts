@@ -25,6 +25,16 @@ export function createApp(): Express {
   app.use(express.json({ limit: '5mb' }));
   app.use(express.urlencoded({ extended: true, limit: '5mb' }));
 
+  // Root welcome route for Render health checks and base URL pings
+  app.get('/', (req, res) => {
+    res.json({
+      status: 'healthy',
+      message: 'Incident Memory Agent Backend API Server is operational',
+      health: '/api/health',
+      timestamp: new Date().toISOString(),
+    });
+  });
+
   // Health check endpoint
   app.get('/api/health', (req, res) => {
     res.json({
